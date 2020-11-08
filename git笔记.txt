@@ -1,0 +1,11 @@
+设置用户名
+git config --global user.name 'zhangyue'
+git config --global user.email '1355478079@qq.com'
+
+初始化git仓库：
+git init
+
+提交修改到git仓库
+git add readme.txt  /  git add*  /  git add *. html
+git commit -m 'message能写中文'
+
