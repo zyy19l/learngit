@@ -9,3 +9,22 @@ git init
 git add readme.txt  /  git add*  /  git add *. html
 git commit -m 'message能写中文'
 
+查看工作区/仓库状态
+git status
+
+版本回退
+git reset --hard HEAD^  回退到上一个版本
+git reset --hard 23sjf  回退到指定版本
+
+查看历史日志
+git log --pretty=oneline
+git reflog 查看历史的每一步操作
+
+撤销修改
+git restore filename  撤销工作区修改
+git restore --staged filename  撤销暂存区修改
+
+删除文件：
+git rm filename
+
+
