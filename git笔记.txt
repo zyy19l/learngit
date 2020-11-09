@@ -27,4 +27,16 @@ git restore --staged filename  撤销暂存区修改
 删除文件：
 git rm filename
 
+关联远程仓库
+git remote add origin  git@github.com:zyy19l/gitskills.git
+git remote add origin https://github.com/zyy19l/gitskill.git
+git remote :查询关联仓库
+git remote remove origin:删除关联的远程仓库地址
+推送内容到远程仓库
+git push -u origin master：第一次推送本地仓库到远程仓库
+从远程仓库克隆
+git clone git@github.com:zyy19l/gitskills.git
+
+
+
 
